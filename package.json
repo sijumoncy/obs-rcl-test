@@ -9,7 +9,7 @@
     "preview": "vite preview",
     "styleguide": "styleguidist server",
     "styleguide-build": "styleguidist build",
-    "prepublishOnly": "rimraf  ./dist && babel ./src --out-dir ./dist -s inline"
+    "prepublishOnly": "rm -rf ./dist && babel ./src --out-dir ./dist -s inline"
   },
   "peerDependencies": {
     "prop-types": "^15.X",
