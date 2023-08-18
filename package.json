@@ -8,6 +8,7 @@
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
     "styleguide": "styleguidist server",
+    "styleguide-build": "styleguidist build",
     "prepublishOnly": "rimraf  ./dist && babel ./src --out-dir ./dist -s inline"
   },
   "peerDependencies": {
